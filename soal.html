@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawaban Soal 4.11 - Analisis Privasi Web Browser</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 30px; background-color: #f8f9fa; color: #333; }
+        .container { max-width: 850px; margin: auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { color: #1a73e8; border-bottom: 2px solid #e8f0fe; padding-bottom: 10px; font-size: 24px; }
+        h2 { color: #2c3e50; font-size: 18px; margin-top: 25px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 15px; }
+        th, td { border: 1px solid #dee2e6; padding: 12px; text-align: left; vertical-align: top; }
+        th { background-color: #f1f3f4; color: #495057; font-weight: 600; }
+        tr:nth-child(even) { background-color: #f8f9fa; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .btn-back { display: inline-block; margin-bottom: 20px; color: #1a73e8; text-decoration: none; font-weight: bold; }
+        .btn-back:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="index.html" class="btn-back">← Kembali ke Halaman Utama Blog</a>
+    
+    <h1>Tugas Praktikum SIM: Soal 4.11<br>Analisis Fitur Privasi Web Browser</h1>
+    <p><strong>Nama:</strong> Naila Nafisah</p>
+
+    <h2>A. Tabel Perbandingan Fitur Privasi: Google Chrome vs Mozilla Firefox</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Kriteria Analisis</th>
+                <th>Google Chrome</th>
+                <th>Mozilla Firefox</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Fungsi Perlindungan Utama</strong></td>
+                <td>Memblokir cookie pihak ketiga secara bertahap, fitur Safe Browsing untuk mendeteksi situs berbahaya, perlindungan sandi otomatis, dan mode penyamaran (Incognito).</td>
+                <td>Enhanced Tracking Protection (ETP) bawaan yang secara ketat memblokir pelacak lintas situs, social media trackers, pembuat sidik jari digital (fingerprinters), dan skrip penambang kripto.</td>
+            </tr>
+            <tr>
+                <td><strong>Kebijakan Pengumpulan Data</strong></td>
+                <td>Mengumpulkan sejumlah data penjelajahan pengguna untuk keperluan personalisasi iklan, karena unit bisnis utama Google berbasis periklanan digital.</td>
+                <td>Dikelola oleh Mozilla (organisasi non-profit). Tidak menjual data pengguna dan menerapkan kebijakan minimalisasi pengumpulan data (Privacy by Design).</td>
+            </tr>
+            <tr>
+                <td><strong>Mode Samaran & Kuki</strong></td>
+                <td>Mode Incognito menghapus riwayat lokal di perangkat, tetapi pelacak web tingkat lanjut tetap dapat mengenali pengguna melalui metode browser fingerprinting.</td>
+                <td>Memiliki fitur Total Cookie Protection yang mengisolasi kuki di setiap situs web secara terpisah, sehingga tidak bisa memata-matai pengguna saat berpindah situs.</td>
+            </tr>
+            <tr>
+                <td><strong>Kemudahan Penggunaan (Ease of Use)</strong></td>
+                <td><strong>Sangat Mudah.</strong> Pengaturan privasi dikelompokkan dengan sangat rapi dan ramah pengguna awam disertai opsi penjelasan tombol yang sangat jelas.</td>
+                <td><strong>Mudah.</strong> Menyediakan tombol pintas berupa ikon perisai langsung di sebelah kiri kolom alamat URL untuk mematikan/menyalakan proteksi secara instan.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>B. Jawaban Pertanyaan Analisis</h2>
+    
+    <h3>1. Bagaimana fitur-fitur privasi tersebut melindungi data pribadi individu?</h3>
+    <ul>
+        <li><strong>Mencegah Profiling Konsumen:</strong> Fitur pemblokiran pelacak (anti-tracking) mencegah perusahaan periklanan merekam riwayat pencarian, lokasi, dan preferensi pribadi pengguna secara diam-diam.</li>
+        <li><strong>Mengurangi Risiko Kebocoran Data:</strong> Dengan memblokir cookie pihak ketiga dan mengisolasi kuki antar situs, informasi penting seperti kredensial login atau aktivitas finansial tidak dapat diintip oleh skrip tersembunyi dari tab situs lain.</li>
+        <li><strong>Keamanan Penjelajahan Real-time:</strong> Fitur perlindungan bawaan memberikan peringatan instan saat pengguna tidak sengaja mengakses tautan penipuan (phishing) atau situs web yang mengandung malware berbahaya.</li>
+    </ul>
+
+    <h3>2. Bagaimana fitur-fitur privasi tersebut memengaruhi aktivitas bisnis perusahaan di Internet?</h3>
+    <ul>
+        <li><strong>Mempersulit Targeted Advertising:</strong> Pelaku bisnis kini kesulitan menampilkan iklan yang sangat spesifik berdasarkan minat pengguna karena kuki pelacak diblokir secara otomatis oleh browser privasi tingg.</li>
+        <li><strong>Menurunkan Akurasi Data Analisis Pasar:</strong> Perusahaan e-commerce mengalami penurunan akurasi pada data konversi iklan karena perilaku konsumen tidak lagi bisa dilacak secara utuh dari platform media sosial hingga ke halaman pembelian.</li>
+        <li><strong>Mendorong Inovasi Iklan yang Lebih Etis:</strong> Sisi positifnya, perusahaan didorong untuk beralih menggunakan strategi pemasaran konten yang organik (first-party data) serta iklan kontekstual yang jauh lebih menghormati hak privasi konsumen.</li>
+    </ul>
+
+    <h3>3. Browser mana yang melakukan pekerjaan terbaik dalam melindungi privasi? Mengapa?</h3>
+    <p><strong>Jawaban:</strong> <strong>Mozilla Firefox.</strong></p>
+    <p><strong>Alasan:</strong> Firefox melakukan pekerjaan terbaik karena dikembangkan oleh Mozilla Foundation, sebuah organisasi non-profit yang tidak memiliki ketergantungan bisnis pada penjualan iklan digital, berbeda dengan Google Chrome yang bisnis utamanya adalah jaringan iklan. Secara teknis bawaan (default), Firefox menerapkan perlindungan pelacakan ketat (*Enhanced Tracking Protection*) dan isolasi kuki (*Total Cookie Protection*) langsung aktif sejak pertama kali diinstal tanpa perlu dikonfigurasi ulang oleh pengguna.</p>
+</div>
+
+</body>
+</html>
